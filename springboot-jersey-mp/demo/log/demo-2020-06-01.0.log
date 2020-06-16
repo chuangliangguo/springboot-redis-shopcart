@@ -1,0 +1,111 @@
+[INFO ] 15:30:46.597 [main] com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-P2GTL45 with PID 11948 (D:\reposity\springboot-jersey-mp\demo\target\classes started by gcl in D:\reposity\springboot-jersey-mp\demo)
+[INFO ] 15:30:46.612 [main] com.example.demo.DemoApplication - The following profiles are active: dev
+[INFO ] 15:30:50.445 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+[INFO ] 15:30:50.523 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:30:50.539 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:30:50.539 [main] o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 15:30:50.554 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\java\jdk1.8.0_181\bin;D:\java\jdk1.8.0_181\jre\bin;C:\WINDOWS\System32\OpenSSH\;D:\Mysql\bin;D:\maven\apache-maven-3.5.2\bin;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 15:30:51.264 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:30:51.264 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4449 ms
+[INFO ] 15:30:54.459 [main] org.reflections.Reflections - Reflections took 2680 ms to scan 1 urls, producing 29 keys and 31 values 
+[INFO ] 15:30:58.678 [main] o.s.b.w.s.ServletRegistrationBean - Servlet com.example.demo.config.JerseyConfig mapped to [/jersey/*]
+[INFO ] 15:30:58.694 [main] o.s.b.w.s.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+[INFO ] 15:30:58.725 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 15:30:58.725 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 15:30:58.725 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'formContentFilter' to: [/*]
+[INFO ] 15:30:58.725 [main] o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 15:30:59.835 [main] c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[INFO ] 15:31:01.213 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 15:31:01.947 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:31:01.963 [main] o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+[INFO ] 15:31:02.010 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 15:31:02.010 [main] com.example.demo.DemoApplication - Started DemoApplication in 17.313 seconds (JVM running for 19.317)
+[INFO ] 15:32:57.147 [main] com.example.demo.DemoApplication --- Starting DemoApplication on DESKTOP-P2GTL45 with PID 8644 (D:\reposity\springboot-jersey-mp\demo\target\classes started by gcl in D:\reposity\springboot-jersey-mp\demo)
+[INFO ] 15:32:57.147 [main] com.example.demo.DemoApplication --- The following profiles are active: dev
+[INFO ] 15:32:58.537 [main] o.s.b.w.e.tomcat.TomcatWebServer --- Tomcat initialized with port(s): 8888 (http)
+[INFO ] 15:32:58.553 [main] o.a.coyote.http11.Http11NioProtocol --- Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:32:58.569 [main] o.a.catalina.core.StandardService --- Starting service [Tomcat]
+[INFO ] 15:32:58.569 [main] o.a.catalina.core.StandardEngine --- Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 15:32:58.584 [main] o.a.c.core.AprLifecycleListener --- The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\java\jdk1.8.0_181\bin;D:\java\jdk1.8.0_181\jre\bin;C:\WINDOWS\System32\OpenSSH\;D:\Mysql\bin;D:\maven\apache-maven-3.5.2\bin;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 15:32:58.803 [main] o.a.c.c.C.[Tomcat].[localhost].[/] --- Initializing Spring embedded WebApplicationContext
+[INFO ] 15:32:58.803 [main] o.s.web.context.ContextLoader --- Root WebApplicationContext: initialization completed in 1594 ms
+[INFO ] 15:32:58.944 [main] org.reflections.Reflections --- Reflections took 63 ms to scan 1 urls, producing 29 keys and 31 values 
+[INFO ] 15:32:59.194 [main] o.s.b.w.s.ServletRegistrationBean --- Servlet com.example.demo.config.JerseyConfig mapped to [/jersey/*]
+[INFO ] 15:32:59.194 [main] o.s.b.w.s.ServletRegistrationBean --- Servlet dispatcherServlet mapped to [/]
+[INFO ] 15:32:59.194 [main] o.s.b.w.s.FilterRegistrationBean --- Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 15:32:59.194 [main] o.s.b.w.s.FilterRegistrationBean --- Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 15:32:59.194 [main] o.s.b.w.s.FilterRegistrationBean --- Mapping filter: 'formContentFilter' to: [/*]
+[INFO ] 15:32:59.194 [main] o.s.b.w.s.FilterRegistrationBean --- Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 15:32:59.553 [main] c.alibaba.druid.pool.DruidDataSource --- {dataSource-1} inited
+[INFO ] 15:33:00.006 [main] o.s.s.c.ThreadPoolTaskExecutor --- Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 15:33:00.237 [main] o.a.coyote.http11.Http11NioProtocol --- Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:33:00.253 [main] o.a.tomcat.util.net.NioSelectorPool --- Using a shared selector for servlet write/read
+[INFO ] 15:33:00.268 [main] o.s.b.w.e.tomcat.TomcatWebServer --- Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 15:33:00.268 [main] com.example.demo.DemoApplication --- Started DemoApplication in 3.792 seconds (JVM running for 5.729)
+[INFO ] 15:33:27.506 [main] com.example.demo.DemoApplication --> Starting DemoApplication on DESKTOP-P2GTL45 with PID 8620 (D:\reposity\springboot-jersey-mp\demo\target\classes started by gcl in D:\reposity\springboot-jersey-mp\demo)
+[INFO ] 15:33:27.506 [main] com.example.demo.DemoApplication --> The following profiles are active: dev
+[INFO ] 15:33:29.968 [main] o.s.b.w.e.tomcat.TomcatWebServer --> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 15:33:29.984 [main] o.a.coyote.http11.Http11NioProtocol --> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:33:29.984 [main] o.a.catalina.core.StandardService --> Starting service [Tomcat]
+[INFO ] 15:33:29.984 [main] o.a.catalina.core.StandardEngine --> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 15:33:29.984 [main] o.a.c.core.AprLifecycleListener --> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\java\jdk1.8.0_181\bin;D:\java\jdk1.8.0_181\jre\bin;C:\WINDOWS\System32\OpenSSH\;D:\Mysql\bin;D:\maven\apache-maven-3.5.2\bin;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 15:33:30.140 [main] o.a.c.c.C.[Tomcat].[localhost].[/] --> Initializing Spring embedded WebApplicationContext
+[INFO ] 15:33:30.140 [main] o.s.web.context.ContextLoader --> Root WebApplicationContext: initialization completed in 2447 ms
+[INFO ] 15:33:30.280 [main] org.reflections.Reflections --> Reflections took 46 ms to scan 1 urls, producing 29 keys and 31 values 
+[INFO ] 15:33:30.671 [main] o.s.b.w.s.ServletRegistrationBean --> Servlet com.example.demo.config.JerseyConfig mapped to [/jersey/*]
+[INFO ] 15:33:30.671 [main] o.s.b.w.s.ServletRegistrationBean --> Servlet dispatcherServlet mapped to [/]
+[INFO ] 15:33:30.687 [main] o.s.b.w.s.FilterRegistrationBean --> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 15:33:30.687 [main] o.s.b.w.s.FilterRegistrationBean --> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 15:33:30.687 [main] o.s.b.w.s.FilterRegistrationBean --> Mapping filter: 'formContentFilter' to: [/*]
+[INFO ] 15:33:30.687 [main] o.s.b.w.s.FilterRegistrationBean --> Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 15:33:31.108 [main] c.alibaba.druid.pool.DruidDataSource --> {dataSource-1} inited
+[INFO ] 15:33:31.510 [main] o.s.s.c.ThreadPoolTaskExecutor --> Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 15:33:31.729 [main] o.a.coyote.http11.Http11NioProtocol --> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:33:31.729 [main] o.a.tomcat.util.net.NioSelectorPool --> Using a shared selector for servlet write/read
+[INFO ] 15:33:31.760 [main] o.s.b.w.e.tomcat.TomcatWebServer --> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 15:33:31.760 [main] com.example.demo.DemoApplication --> Started DemoApplication in 5.16 seconds (JVM running for 6.953)
+[INFO ] 15:33:40.485 [main] com.example.demo.DemoApplication --> Starting DemoApplication on DESKTOP-P2GTL45 with PID 8780 (D:\reposity\springboot-jersey-mp\demo\target\classes started by gcl in D:\reposity\springboot-jersey-mp\demo)
+[INFO ] 15:33:40.501 [main] com.example.demo.DemoApplication --> The following profiles are active: dev
+[INFO ] 15:33:42.159 [main] o.s.b.w.e.tomcat.TomcatWebServer --> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 15:33:42.175 [main] o.a.coyote.http11.Http11NioProtocol --> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:33:42.175 [main] o.a.catalina.core.StandardService --> Starting service [Tomcat]
+[INFO ] 15:33:42.175 [main] o.a.catalina.core.StandardEngine --> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 15:33:42.199 [main] o.a.c.core.AprLifecycleListener --> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\java\jdk1.8.0_181\bin;D:\java\jdk1.8.0_181\jre\bin;C:\WINDOWS\System32\OpenSSH\;D:\Mysql\bin;D:\maven\apache-maven-3.5.2\bin;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 15:33:42.340 [main] o.a.c.c.C.[Tomcat].[localhost].[/] --> Initializing Spring embedded WebApplicationContext
+[INFO ] 15:33:42.340 [main] o.s.web.context.ContextLoader --> Root WebApplicationContext: initialization completed in 1699 ms
+[INFO ] 15:33:42.449 [main] org.reflections.Reflections --> Reflections took 31 ms to scan 1 urls, producing 29 keys and 31 values 
+[INFO ] 15:33:42.699 [main] o.s.b.w.s.ServletRegistrationBean --> Servlet com.example.demo.config.JerseyConfig mapped to [/jersey/*]
+[INFO ] 15:33:42.699 [main] o.s.b.w.s.ServletRegistrationBean --> Servlet dispatcherServlet mapped to [/]
+[INFO ] 15:33:42.731 [main] o.s.b.w.s.FilterRegistrationBean --> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 15:33:42.731 [main] o.s.b.w.s.FilterRegistrationBean --> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 15:33:42.731 [main] o.s.b.w.s.FilterRegistrationBean --> Mapping filter: 'formContentFilter' to: [/*]
+[INFO ] 15:33:42.731 [main] o.s.b.w.s.FilterRegistrationBean --> Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 15:33:43.106 [main] c.alibaba.druid.pool.DruidDataSource --> {dataSource-1} inited
+[INFO ] 15:33:43.459 [main] o.s.s.c.ThreadPoolTaskExecutor --> Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 15:33:43.662 [main] o.a.coyote.http11.Http11NioProtocol --> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:33:43.677 [main] o.a.tomcat.util.net.NioSelectorPool --> Using a shared selector for servlet write/read
+[INFO ] 15:33:43.693 [main] o.s.b.w.e.tomcat.TomcatWebServer --> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 15:33:43.693 [main] com.example.demo.DemoApplication --> Started DemoApplication in 4.208 seconds (JVM running for 6.086)
+[INFO ] 15:35:31.270 [http-nio-8888-exec-1] org.reflections.Reflections --> Reflections took 56 ms to scan 1 urls, producing 29 keys and 31 values 
+[INFO ] 15:39:02.845 [main] com.example.demo.DemoApplication ---> Starting DemoApplication on DESKTOP-P2GTL45 with PID 7368 (D:\reposity\springboot-jersey-mp\demo\target\classes started by gcl in D:\reposity\springboot-jersey-mp\demo)
+[INFO ] 15:39:02.860 [main] com.example.demo.DemoApplication ---> The following profiles are active: dev
+[INFO ] 15:39:04.720 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 15:39:04.860 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:39:04.860 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 15:39:04.860 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 15:39:04.876 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\java\jdk1.8.0_181\bin;D:\java\jdk1.8.0_181\jre\bin;C:\WINDOWS\System32\OpenSSH\;D:\Mysql\bin;D:\maven\apache-maven-3.5.2\bin;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 15:39:05.188 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 15:39:05.188 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 2156 ms
+[INFO ] 15:39:05.313 [main] org.reflections.Reflections ---> Reflections took 32 ms to scan 1 urls, producing 29 keys and 31 values 
+[INFO ] 15:39:05.563 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet com.example.demo.config.JerseyConfig mapped to [/jersey/*]
+[INFO ] 15:39:05.579 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 15:39:05.579 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 15:39:05.579 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 15:39:05.579 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'formContentFilter' to: [/*]
+[INFO ] 15:39:05.579 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 15:39:05.954 [main] c.alibaba.druid.pool.DruidDataSource ---> {dataSource-1} inited
+[INFO ] 15:39:06.501 [main] o.s.s.c.ThreadPoolTaskExecutor ---> Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 15:39:06.704 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:39:06.719 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 15:39:06.735 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 15:39:06.735 [main] com.example.demo.DemoApplication ---> Started DemoApplication in 4.875 seconds (JVM running for 6.668)

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.dao.ModelDao">
+
+    <select id="queryUser" resultType="com.example.demo.model.ModelEntity">
+        select * from user_table
+    </select>
+
+    <update id="updateUser" parameterType="java.lang.Integer">
+        update user_table
+        set sex = 'xiaoming' where id = #{id}
+    </update>
+
+    <insert id="addUser" parameterType="com.example.demo.model.ModelEntity">
+        insert into user_table
+        (id, name, sex)
+        values (#{id},#{name}, #{sex})
+    </insert>
+
+    <delete id="deleteUser">
+        delete from user_table
+        where id = #{id}
+    </delete>
+
+</mapper>

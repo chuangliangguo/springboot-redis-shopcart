@@ -1,0 +1,87 @@
+[INFO ] 10:59:39.817 [main] com.example.demo.DemoApplication ---> Starting DemoApplication on DESKTOP-P2GTL45 with PID 1120 (D:\reposity\springboot-jersey-mp\demo\target\classes started by gcl in D:\reposity\springboot-jersey-mp\demo)
+[INFO ] 10:59:39.852 [main] com.example.demo.DemoApplication ---> The following profiles are active: dev
+[INFO ] 10:59:55.602 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 10:59:55.836 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 10:59:55.883 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 10:59:55.883 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 10:59:55.899 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\java\jdk1.8.0_181\bin;D:\java\jdk1.8.0_181\jre\bin;C:\WINDOWS\System32\OpenSSH\;D:\Mysql\bin;D:\maven\apache-maven-3.5.2\bin;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 10:59:56.711 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 10:59:56.711 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 15676 ms
+[INFO ] 10:59:58.902 [main] org.reflections.Reflections ---> Reflections took 879 ms to scan 1 urls, producing 37 keys and 39 values 
+[INFO ] 11:00:00.699 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet com.example.demo.config.JerseyConfig mapped to [/jersey/*]
+[INFO ] 11:00:00.699 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 11:00:00.840 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 11:00:00.840 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 11:00:00.840 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'formContentFilter' to: [/*]
+[INFO ] 11:00:00.840 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 11:00:04.667 [main] c.alibaba.druid.pool.DruidDataSource ---> {dataSource-1} inited
+[INFO ] 11:00:15.967 [main] o.s.s.c.ThreadPoolTaskExecutor ---> Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 11:00:17.326 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 11:00:17.358 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 11:00:17.389 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 11:00:17.405 [main] com.example.demo.DemoApplication ---> Started DemoApplication in 44.576 seconds (JVM running for 64.854)
+[INFO ] 11:02:36.281 [http-nio-8888-exec-1] org.reflections.Reflections ---> Reflections took 535 ms to scan 1 urls, producing 37 keys and 39 values 
+[INFO ] 11:02:44.789 [http-nio-8888-exec-3] c.e.d.c.JerseyModelController ---> JerseyModelController queryEmployee start: page:1,size:1
+[DEBUG] 11:02:45.080 [http-nio-8888-exec-3] c.e.demo.dao.ModelDao.selectPage ---> ==>  Preparing: SELECT COUNT(1) FROM tb_employee 
+[DEBUG] 11:02:45.181 [http-nio-8888-exec-3] c.e.demo.dao.ModelDao.selectPage ---> ==> Parameters: 
+[DEBUG] 11:02:46.413 [http-nio-8888-exec-3] c.e.demo.dao.ModelDao.selectPage ---> ==>  Preparing: SELECT id AS id,last_name AS lastName,email,gender FROM tb_employee LIMIT 0,1 
+[DEBUG] 11:02:46.414 [http-nio-8888-exec-3] c.e.demo.dao.ModelDao.selectPage ---> ==> Parameters: 
+[DEBUG] 11:02:46.486 [http-nio-8888-exec-3] c.e.demo.dao.ModelDao.selectPage ---> <==      Total: 1
+[INFO ] 11:07:14.498 [main] com.example.demo.DemoApplication ---> Starting DemoApplication on DESKTOP-P2GTL45 with PID 13008 (D:\reposity\springboot-jersey-mp\demo\target\classes started by gcl in D:\reposity\springboot-jersey-mp\demo)
+[INFO ] 11:07:14.498 [main] com.example.demo.DemoApplication ---> The following profiles are active: dev
+[INFO ] 11:07:16.014 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 11:07:16.030 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 11:07:16.045 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 11:07:16.045 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 11:07:16.045 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\java\jdk1.8.0_181\bin;D:\java\jdk1.8.0_181\jre\bin;C:\WINDOWS\System32\OpenSSH\;D:\Mysql\bin;D:\maven\apache-maven-3.5.2\bin;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 11:07:16.201 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 11:07:16.201 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1640 ms
+[INFO ] 11:07:16.326 [main] org.reflections.Reflections ---> Reflections took 31 ms to scan 1 urls, producing 37 keys and 39 values 
+[INFO ] 11:07:16.639 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet com.example.demo.config.JerseyConfig mapped to [/jersey/*]
+[INFO ] 11:07:16.639 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 11:07:16.639 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 11:07:16.639 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 11:07:16.639 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'formContentFilter' to: [/*]
+[INFO ] 11:07:16.639 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 11:07:17.092 [main] c.alibaba.druid.pool.DruidDataSource ---> {dataSource-1} inited
+[INFO ] 11:07:17.467 [main] o.s.s.c.ThreadPoolTaskExecutor ---> Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 11:07:17.686 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 11:07:17.701 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 11:07:17.795 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 11:07:17.811 [main] com.example.demo.DemoApplication ---> Started DemoApplication in 3.719 seconds (JVM running for 14.558)
+[INFO ] 11:07:26.914 [http-nio-8888-exec-1] org.reflections.Reflections ---> Reflections took 0 ms to scan 1 urls, producing 37 keys and 39 values 
+[INFO ] 11:07:31.266 [http-nio-8888-exec-3] c.e.d.c.JerseyModelController ---> JerseyModelController queryEmployee start: page:1,size:1
+[DEBUG] 11:07:31.470 [http-nio-8888-exec-3] c.e.demo.dao.ModelDao.selectPage ---> ==>  Preparing: SELECT COUNT(1) FROM tb_employee 
+[DEBUG] 11:07:31.723 [http-nio-8888-exec-3] c.e.demo.dao.ModelDao.selectPage ---> ==> Parameters: 
+[DEBUG] 11:07:31.816 [http-nio-8888-exec-3] c.e.demo.dao.ModelDao.selectPage ---> ==>  Preparing: SELECT id AS id,last_name AS lastName,email,gender FROM tb_employee LIMIT 0,1 
+[DEBUG] 11:07:31.817 [http-nio-8888-exec-3] c.e.demo.dao.ModelDao.selectPage ---> ==> Parameters: 
+[DEBUG] 11:07:31.823 [http-nio-8888-exec-3] c.e.demo.dao.ModelDao.selectPage ---> <==      Total: 1
+[INFO ] 15:26:10.655 [main] com.example.demo.DemoApplication ---> Starting DemoApplication on DESKTOP-P2GTL45 with PID 9364 (D:\reposity\springboot-jersey-mp\demo\target\classes started by gcl in D:\reposity\springboot-jersey-mp\demo)
+[INFO ] 15:26:10.678 [main] com.example.demo.DemoApplication ---> The following profiles are active: dev
+[INFO ] 15:26:15.332 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 15:26:15.409 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:26:15.423 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 15:26:15.424 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 15:26:15.433 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\java\jdk1.8.0_181\bin;D:\java\jdk1.8.0_181\jre\bin;C:\WINDOWS\System32\OpenSSH\;D:\Mysql\bin;D:\maven\apache-maven-3.5.2\bin;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 15:26:15.838 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 15:26:15.839 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 4597 ms
+[INFO ] 15:26:16.413 [main] org.reflections.Reflections ---> Reflections took 130 ms to scan 1 urls, producing 38 keys and 40 values 
+[INFO ] 15:26:17.467 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet com.example.demo.config.JerseyConfig mapped to [/jersey/*]
+[INFO ] 15:26:17.468 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 15:26:17.506 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 15:26:17.507 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 15:26:17.507 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'formContentFilter' to: [/*]
+[INFO ] 15:26:17.507 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 15:26:18.326 [main] c.alibaba.druid.pool.DruidDataSource ---> {dataSource-1} inited
+[INFO ] 15:26:22.942 [main] o.s.s.c.ThreadPoolTaskExecutor ---> Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 15:26:23.489 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:26:23.505 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 15:26:23.543 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 15:26:23.549 [main] com.example.demo.DemoApplication ---> Started DemoApplication in 14.45 seconds (JVM running for 19.175)
+[INFO ] 15:27:15.714 [http-nio-8888-exec-2] org.reflections.Reflections ---> Reflections took 85 ms to scan 1 urls, producing 38 keys and 40 values 
+[INFO ] 15:27:44.957 [http-nio-8888-exec-4] c.e.d.c.JerseyModelController ---> JerseyModelController queryEmployee start: page:1,size:1
+[DEBUG] 15:27:45.192 [http-nio-8888-exec-4] c.e.demo.dao.ModelDao.selectPage ---> ==>  Preparing: SELECT COUNT(1) FROM tb_employee 
+[DEBUG] 15:27:45.226 [http-nio-8888-exec-4] c.e.demo.dao.ModelDao.selectPage ---> ==> Parameters: 
+[DEBUG] 15:27:45.891 [http-nio-8888-exec-4] c.e.demo.dao.ModelDao.selectPage ---> ==>  Preparing: SELECT id AS id,last_name AS lastName,email,gender FROM tb_employee LIMIT 0,1 
+[DEBUG] 15:27:45.895 [http-nio-8888-exec-4] c.e.demo.dao.ModelDao.selectPage ---> ==> Parameters: 
+[DEBUG] 15:27:45.938 [http-nio-8888-exec-4] c.e.demo.dao.ModelDao.selectPage ---> <==      Total: 1
