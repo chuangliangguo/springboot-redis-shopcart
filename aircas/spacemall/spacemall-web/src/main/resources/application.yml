@@ -1,0 +1,28 @@
+server:
+  port: 8888
+  path: mall
+
+spring:
+  datasource:
+    #mysql5 中com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test_db?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mappers/*Mapper.xml
+  type-aliases-package: com.spacemall.model
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  utoRuntimeDialect: true
+  params: count=countSql　　　　　 
+
+
+
+

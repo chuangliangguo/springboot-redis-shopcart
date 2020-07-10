@@ -1,0 +1,223 @@
+[INFO ] 17:14:17.281 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 24408 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 17:14:17.281 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 17:14:18.168 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 17:14:18.183 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 17:14:18.230 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+[INFO ] 17:14:18.570 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$273c680d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 17:14:18.845 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 17:14:18.845 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 17:14:18.845 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 17:14:18.861 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 17:14:18.861 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 17:14:18.930 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 17:14:18.930 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1580 ms
+[INFO ] 17:14:18.961 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 17:14:18.961 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 17:14:19.816 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 17:14:20.279 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Context refreshed
+[INFO ] 17:14:20.295 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Found 1 custom documentation plugin(s)
+[INFO ] 17:14:20.332 [main] s.d.s.w.s.ApiListingReferenceScanner ---> Scanning for api listing references
+[INFO ] 17:14:20.464 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 17:14:20.480 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 17:14:20.495 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 17:14:20.495 [main] c.spacemall.web.SpaceMallApplication ---> Started SpaceMallApplication in 3.58 seconds (JVM running for 5.206)
+[INFO ] 17:35:26.066 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 1408 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 17:35:26.066 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 17:35:26.836 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 17:35:26.836 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 17:35:26.867 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+[WARN ] 17:35:26.952 [main] o.m.s.mapper.ClassPathMapperScanner ---> No MyBatis mapper was found in '[com.spacemall.web.dao]' package. Please check your configuration.
+[INFO ] 17:35:27.153 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bdb752b9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 17:35:27.400 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 17:35:27.407 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 17:35:27.407 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 17:35:27.407 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 17:35:27.407 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 17:35:27.485 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 17:35:27.485 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1287 ms
+[INFO ] 17:35:27.507 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 17:35:27.507 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 17:35:27.955 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[WARN ] 17:35:28.286 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ---> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spacemall.model.entity.userEntity.UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+[INFO ] 17:35:28.286 [main] c.alibaba.druid.pool.DruidDataSource ---> {dataSource-0} closing ...
+[INFO ] 17:35:28.302 [main] o.a.catalina.core.StandardService ---> Stopping service [Tomcat]
+[INFO ] 17:35:28.309 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener ---> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR] 17:35:28.324 [main] o.s.boot.SpringApplication ---> Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spacemall.model.entity.userEntity.UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:625)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.spacemall.web.SpaceMallApplication.main(SpaceMallApplication.java:21)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spacemall.model.entity.userEntity.UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:620)
+	... 19 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spacemall.model.entity.userEntity.UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:595)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:475)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:615)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f08ba3e9.CGLIB$sqlSessionFactory$1(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f08ba3e9$$FastClassBySpringCGLIB$$82ef7948.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$f08ba3e9.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spacemall.model.entity.userEntity.UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:122)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:94)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:593)
+	... 33 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spacemall.model.entity.userEntity.UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:137)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:130)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	... 35 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spacemall.model.entity.userEntity.UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 41 common frames omitted
+[INFO ] 17:36:24.656 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 5516 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 17:36:24.656 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 17:36:25.335 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 17:36:25.335 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 17:36:25.360 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+[WARN ] 17:36:25.473 [main] o.m.s.mapper.ClassPathMapperScanner ---> No MyBatis mapper was found in '[com.spacemall.web.dao]' package. Please check your configuration.
+[INFO ] 17:36:25.689 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$481e03a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 17:36:25.952 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 17:36:25.958 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 17:36:25.958 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 17:36:25.958 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 17:36:25.958 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 17:36:26.036 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 17:36:26.036 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1318 ms
+[INFO ] 17:36:26.058 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 17:36:26.058 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 17:36:26.491 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[WARN ] 17:36:26.838 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ---> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spacemall.model.entity.userEntity.UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+[INFO ] 17:36:26.838 [main] c.alibaba.druid.pool.DruidDataSource ---> {dataSource-0} closing ...
+[INFO ] 17:36:26.854 [main] o.a.catalina.core.StandardService ---> Stopping service [Tomcat]
+[INFO ] 17:36:26.860 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener ---> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR] 17:36:26.876 [main] o.s.boot.SpringApplication ---> Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spacemall.model.entity.userEntity.UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:625)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:605)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1288)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at com.spacemall.web.SpaceMallApplication.main(SpaceMallApplication.java:21)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spacemall.model.entity.userEntity.UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:620)
+	... 19 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spacemall.model.entity.userEntity.UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:595)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:475)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:615)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:180)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7af254d4.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7af254d4$$FastClassBySpringCGLIB$$dc701b73.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7af254d4.sqlSessionFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 20 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [D:\reposity\aircas\spacemall\spacemall-web\target\classes\mybatis\mappers\UserMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spacemall.model.entity.userEntity.UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:122)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:94)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:593)
+	... 33 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spacemall.model.entity.userEntity.UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:102)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:137)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:130)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:120)
+	... 35 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.spacemall.model.entity.userEntity.UserEntity'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.spacemall.model.entity.userEntity.UserEntity
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:200)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 41 common frames omitted
+[INFO ] 17:37:20.199 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 32676 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 17:37:20.199 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 17:37:20.916 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 17:37:20.932 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 17:37:20.954 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+[WARN ] 17:37:21.038 [main] o.m.s.mapper.ClassPathMapperScanner ---> No MyBatis mapper was found in '[com.spacemall.web.dao]' package. Please check your configuration.
+[INFO ] 17:37:21.217 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$612f1d61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 17:37:21.471 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 17:37:21.487 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 17:37:21.487 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 17:37:21.487 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 17:37:21.487 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 17:37:21.570 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 17:37:21.570 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1271 ms
+[INFO ] 17:37:21.586 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 17:37:21.586 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 17:37:22.034 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 17:37:22.630 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Context refreshed
+[INFO ] 17:37:22.642 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Found 1 custom documentation plugin(s)
+[INFO ] 17:37:22.673 [main] s.d.s.w.s.ApiListingReferenceScanner ---> Scanning for api listing references
+[INFO ] 17:37:22.804 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 17:37:22.804 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 17:37:22.821 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 17:37:22.821 [main] c.spacemall.web.SpaceMallApplication ---> Started SpaceMallApplication in 3.006 seconds (JVM running for 3.734)

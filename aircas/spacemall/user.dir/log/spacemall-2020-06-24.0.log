@@ -1,0 +1,30 @@
+[INFO ] 09:54:06.320 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 11968 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 09:54:06.323 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 09:54:07.525 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$986d89e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 09:54:07.730 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 09:54:07.741 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 09:54:07.745 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 09:54:07.745 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 09:54:07.750 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 09:54:07.813 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 09:54:07.813 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1441 ms
+[INFO ] 09:54:07.836 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 09:54:07.840 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 09:54:07.840 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[INFO ] 09:54:07.840 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'formContentFilter' to: [/*]
+[INFO ] 09:54:07.840 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'requestContextFilter' to: [/*]
+[INFO ] 09:54:08.414 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 09:54:08.508 [main] o.s.s.c.ThreadPoolTaskExecutor ---> Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 09:54:08.676 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Context refreshed
+[INFO ] 09:54:08.692 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Found 1 custom documentation plugin(s)
+[INFO ] 09:54:08.716 [main] s.d.s.w.s.ApiListingReferenceScanner ---> Scanning for api listing references
+[INFO ] 09:54:08.830 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 09:54:08.836 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 09:54:08.846 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 09:54:08.848 [main] c.spacemall.web.SpaceMallApplication ---> Started SpaceMallApplication in 2.969 seconds (JVM running for 3.805)
+[INFO ] 09:54:15.054 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 09:54:15.054 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Initializing Servlet 'dispatcherServlet'
+[INFO ] 09:54:15.060 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Completed initialization in 6 ms
+[INFO ] 09:54:22.903 [http-nio-8888-exec-7] c.s.w.c.TableDepartmentController ---> TableDepartmentController getDepartmentInfo start: page:1,size:2
+[INFO ] 09:54:22.903 [http-nio-8888-exec-7] c.s.w.s.i.TableDepartmentServiceImpl ---> TableDepartmentServiceImpl getDepartmentInfo start: page:1,size:2
+[INFO ] 09:54:22.967 [http-nio-8888-exec-7] c.alibaba.druid.pool.DruidDataSource ---> {dataSource-1} inited

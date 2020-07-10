@@ -1,0 +1,517 @@
+[INFO ] 14:39:28.583 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 6684 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 14:39:28.585 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 14:39:29.546 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 14:39:29.548 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 14:39:29.572 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+[INFO ] 14:39:29.824 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6bea429a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 14:39:30.059 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 14:39:30.069 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 14:39:30.073 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 14:39:30.073 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 14:39:30.078 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 14:39:30.146 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 14:39:30.146 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1475 ms
+[INFO ] 14:39:30.163 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 14:39:30.166 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 14:39:30.707 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[WARN ] 14:39:30.856 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ---> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties': Could not bind properties to 'RedisProperties' : prefix=spring.redis, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.redis.port' to int
+[INFO ] 14:39:30.858 [main] c.alibaba.druid.pool.DruidDataSource ---> {dataSource-0} closing ...
+[INFO ] 14:39:30.861 [main] o.a.catalina.core.StandardService ---> Stopping service [Tomcat]
+[INFO ] 14:39:30.876 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener ---> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR] 14:39:30.878 [main] o.s.b.d.LoggingFailureAnalysisReporter ---> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.redis.port' to int:
+
+    Property: spring.redis.port
+    Value: 
+    Origin: class path resource [application.yml]:7:10
+    Reason: failed to convert java.lang.String to int
+
+Action:
+
+Update your application's configuration
+
+[INFO ] 14:40:23.875 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 7580 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 14:40:23.878 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 14:40:24.666 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 14:40:24.668 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 14:40:24.690 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+[INFO ] 14:40:24.965 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b59a29be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 14:40:25.185 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 14:40:25.194 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 14:40:25.197 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 14:40:25.197 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 14:40:25.202 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 14:40:25.271 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 14:40:25.271 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1338 ms
+[INFO ] 14:40:25.288 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 14:40:25.292 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 14:40:25.808 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[WARN ] 14:40:25.944 [main] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext ---> Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.boot.context.properties.ConfigurationPropertiesBindException: Error creating bean with name 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties': Could not bind properties to 'RedisProperties' : prefix=spring.redis, ignoreInvalidFields=false, ignoreUnknownFields=true; nested exception is org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.redis.port' to int
+[INFO ] 14:40:25.946 [main] c.alibaba.druid.pool.DruidDataSource ---> {dataSource-0} closing ...
+[INFO ] 14:40:25.947 [main] o.a.catalina.core.StandardService ---> Stopping service [Tomcat]
+[INFO ] 14:40:25.959 [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener ---> 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR] 14:40:25.962 [main] o.s.b.d.LoggingFailureAnalysisReporter ---> 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.redis.port' to int:
+
+    Property: spring.redis.port
+    Value: 
+    Origin: class path resource [application.yml]:7:10
+    Reason: failed to convert java.lang.String to int
+
+Action:
+
+Update your application's configuration
+
+[INFO ] 14:40:49.432 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 16648 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 14:40:49.442 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 14:40:50.142 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 14:40:50.144 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 14:40:50.164 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+[INFO ] 14:40:50.409 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$938b97db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 14:40:50.628 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 14:40:50.637 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 14:40:50.641 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 14:40:50.641 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 14:40:50.646 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 14:40:50.714 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 14:40:50.714 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1212 ms
+[INFO ] 14:40:50.731 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 14:40:50.734 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 14:40:51.233 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 14:40:51.735 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Context refreshed
+[INFO ] 14:40:51.748 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Found 1 custom documentation plugin(s)
+[INFO ] 14:40:51.779 [main] s.d.s.w.s.ApiListingReferenceScanner ---> Scanning for api listing references
+[INFO ] 14:40:51.895 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 14:40:51.901 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 14:40:51.912 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 14:40:51.914 [main] c.spacemall.web.SpaceMallApplication ---> Started SpaceMallApplication in 2.916 seconds (JVM running for 3.519)
+[INFO ] 14:41:20.366 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 14:41:20.366 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Initializing Servlet 'dispatcherServlet'
+[INFO ] 14:41:20.373 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Completed initialization in 7 ms
+[WARN ] 14:41:20.386 [http-nio-8888-exec-1] o.s.web.servlet.PageNotFound ---> No mapping for GET /swagger-ui.html
+[WARN ] 14:41:20.456 [http-nio-8888-exec-4] o.s.web.servlet.PageNotFound ---> No mapping for GET /favicon.ico
+[WARN ] 14:41:48.792 [http-nio-8888-exec-2] o.s.web.servlet.PageNotFound ---> No mapping for GET /
+[WARN ] 14:41:51.883 [http-nio-8888-exec-9] o.s.web.servlet.PageNotFound ---> No mapping for GET /
+[INFO ] 14:43:45.796 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 3948 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 14:43:45.798 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 14:43:46.526 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 14:43:46.528 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 14:43:46.548 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+[INFO ] 14:43:46.792 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4bbfdd80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 14:43:47.009 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 14:43:47.018 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 14:43:47.022 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 14:43:47.022 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 14:43:47.026 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 14:43:47.093 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 14:43:47.093 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1246 ms
+[INFO ] 14:43:47.111 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 14:43:47.114 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 14:43:47.658 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 14:43:48.110 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Context refreshed
+[INFO ] 14:43:48.123 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Found 1 custom documentation plugin(s)
+[INFO ] 14:43:48.155 [main] s.d.s.w.s.ApiListingReferenceScanner ---> Scanning for api listing references
+[INFO ] 14:43:48.273 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 14:43:48.278 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 14:43:48.288 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 14:43:48.291 [main] c.spacemall.web.SpaceMallApplication ---> Started SpaceMallApplication in 2.82 seconds (JVM running for 3.448)
+[INFO ] 14:43:57.701 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 14:43:57.702 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Initializing Servlet 'dispatcherServlet'
+[INFO ] 14:43:57.707 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Completed initialization in 5 ms
+[WARN ] 14:43:57.719 [http-nio-8888-exec-1] o.s.web.servlet.PageNotFound ---> No mapping for GET /
+[WARN ] 14:44:13.335 [http-nio-8888-exec-5] o.s.web.servlet.PageNotFound ---> No mapping for GET /swagger-ui.html
+[WARN ] 14:44:37.736 [http-nio-8888-exec-2] o.s.web.servlet.PageNotFound ---> No mapping for GET /swagger-ui.html
+[WARN ] 14:44:46.268 [http-nio-8888-exec-6] o.s.web.servlet.PageNotFound ---> No mapping for GET /swagger-ui.html
+[WARN ] 14:50:52.284 [http-nio-8888-exec-10] o.s.web.servlet.PageNotFound ---> No mapping for GET /user/swagger-ui.html
+[WARN ] 14:50:57.488 [http-nio-8888-exec-9] o.s.w.s.m.s.DefaultHandlerExceptionResolver ---> Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'page' is not present]
+[INFO ] 14:52:50.768 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 18708 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 14:52:50.770 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 14:52:51.455 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 14:52:51.456 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 14:52:51.478 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+[INFO ] 14:52:51.723 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$335b598f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 14:52:51.946 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 14:52:51.954 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 14:52:51.957 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 14:52:51.957 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 14:52:51.962 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 14:52:52.028 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 14:52:52.029 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1211 ms
+[INFO ] 14:52:52.047 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 14:52:52.051 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 14:52:52.555 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 14:52:53.020 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Context refreshed
+[INFO ] 14:52:53.032 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Found 1 custom documentation plugin(s)
+[INFO ] 14:52:53.060 [main] s.d.s.w.s.ApiListingReferenceScanner ---> Scanning for api listing references
+[INFO ] 14:52:53.170 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 14:52:53.176 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 14:52:53.187 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 14:52:53.189 [main] c.spacemall.web.SpaceMallApplication ---> Started SpaceMallApplication in 2.757 seconds (JVM running for 3.42)
+[INFO ] 14:53:05.074 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 14:53:05.075 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Initializing Servlet 'dispatcherServlet'
+[INFO ] 14:53:05.080 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Completed initialization in 5 ms
+[WARN ] 14:53:05.090 [http-nio-8888-exec-1] o.s.web.servlet.PageNotFound ---> No mapping for GET /mall
+[WARN ] 14:53:23.645 [http-nio-8888-exec-3] o.s.web.servlet.PageNotFound ---> No mapping for GET /mall/swaggeer-ui.html
+[INFO ] 15:08:00.832 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 6540 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 15:08:00.834 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 15:08:01.664 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 15:08:01.666 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 15:08:01.687 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+[INFO ] 15:08:01.936 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$530acf21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 15:08:02.155 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 15:08:02.163 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:08:02.166 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 15:08:02.166 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 15:08:02.171 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 15:08:02.235 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 15:08:02.235 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1343 ms
+[INFO ] 15:08:02.252 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 15:08:02.255 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 15:08:02.775 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 15:08:03.237 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Context refreshed
+[INFO ] 15:08:03.248 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Found 1 custom documentation plugin(s)
+[INFO ] 15:08:03.275 [main] s.d.s.w.s.ApiListingReferenceScanner ---> Scanning for api listing references
+[INFO ] 15:08:03.384 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:08:03.390 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 15:08:03.400 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 15:08:03.402 [main] c.spacemall.web.SpaceMallApplication ---> Started SpaceMallApplication in 2.925 seconds (JVM running for 3.51)
+[INFO ] 15:08:17.557 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 15:08:17.557 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Initializing Servlet 'dispatcherServlet'
+[INFO ] 15:08:17.564 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Completed initialization in 7 ms
+[WARN ] 15:08:17.573 [http-nio-8888-exec-1] o.s.web.servlet.PageNotFound ---> No mapping for GET /swaggeer-ui.html
+[WARN ] 15:08:21.164 [http-nio-8888-exec-4] o.s.web.servlet.PageNotFound ---> No mapping for GET /
+[WARN ] 15:08:32.057 [http-nio-8888-exec-9] o.s.web.servlet.PageNotFound ---> No mapping for GET /
+[INFO ] 15:10:55.963 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 7192 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 15:10:55.966 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 15:10:56.669 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 15:10:56.671 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 15:10:56.692 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+[INFO ] 15:10:56.939 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7079c244] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 15:10:57.158 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 15:10:57.166 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:10:57.169 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 15:10:57.169 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 15:10:57.174 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 15:10:57.239 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 15:10:57.240 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1226 ms
+[INFO ] 15:10:57.257 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 15:10:57.261 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 15:10:57.762 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 15:10:58.228 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Context refreshed
+[INFO ] 15:10:58.240 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Found 1 custom documentation plugin(s)
+[INFO ] 15:10:58.271 [main] s.d.s.w.s.ApiListingReferenceScanner ---> Scanning for api listing references
+[INFO ] 15:10:58.387 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:10:58.393 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 15:10:58.402 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 15:10:58.405 [main] c.spacemall.web.SpaceMallApplication ---> Started SpaceMallApplication in 2.764 seconds (JVM running for 3.35)
+[INFO ] 15:11:05.412 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 3480 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 15:11:05.414 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 15:11:06.101 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 15:11:06.103 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 15:11:06.123 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+[INFO ] 15:11:06.359 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3e24a26d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 15:11:06.577 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 15:11:06.586 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:11:06.590 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 15:11:06.590 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 15:11:06.596 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 15:11:06.662 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 15:11:06.662 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1201 ms
+[INFO ] 15:11:06.678 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 15:11:06.682 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 15:11:07.173 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 15:11:07.632 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Context refreshed
+[INFO ] 15:11:07.644 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Found 1 custom documentation plugin(s)
+[INFO ] 15:11:07.671 [main] s.d.s.w.s.ApiListingReferenceScanner ---> Scanning for api listing references
+[INFO ] 15:11:07.781 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:11:07.787 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 15:11:07.797 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 15:11:07.799 [main] c.spacemall.web.SpaceMallApplication ---> Started SpaceMallApplication in 2.714 seconds (JVM running for 3.302)
+[INFO ] 15:11:13.223 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 15:11:13.223 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Initializing Servlet 'dispatcherServlet'
+[INFO ] 15:11:13.228 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Completed initialization in 5 ms
+[WARN ] 15:11:13.239 [http-nio-8888-exec-1] o.s.web.servlet.PageNotFound ---> No mapping for GET /
+[WARN ] 15:11:15.056 [http-nio-8888-exec-4] o.s.web.servlet.PageNotFound ---> No mapping for GET /
+[INFO ] 15:13:27.814 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 11572 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 15:13:27.817 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 15:13:28.521 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 15:13:28.522 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 15:13:28.541 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+[INFO ] 15:13:28.775 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$51c588f9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 15:13:28.990 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 15:13:28.998 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:13:29.002 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 15:13:29.002 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 15:13:29.006 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 15:13:29.073 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 15:13:29.073 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1199 ms
+[INFO ] 15:13:29.089 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 15:13:29.092 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 15:13:29.582 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 15:13:30.047 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Context refreshed
+[INFO ] 15:13:30.058 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Found 1 custom documentation plugin(s)
+[INFO ] 15:13:30.083 [main] s.d.s.w.s.ApiListingReferenceScanner ---> Scanning for api listing references
+[INFO ] 15:13:30.201 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:13:30.207 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 15:13:30.217 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 15:13:30.219 [main] c.spacemall.web.SpaceMallApplication ---> Started SpaceMallApplication in 2.728 seconds (JVM running for 3.34)
+[INFO ] 15:13:36.042 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 15:13:36.042 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Initializing Servlet 'dispatcherServlet'
+[INFO ] 15:13:36.047 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Completed initialization in 5 ms
+[WARN ] 15:13:36.057 [http-nio-8888-exec-1] o.s.web.servlet.PageNotFound ---> No mapping for GET /
+[WARN ] 15:13:41.444 [http-nio-8888-exec-2] o.s.web.servlet.PageNotFound ---> No mapping for GET /
+[WARN ] 15:13:55.128 [http-nio-8888-exec-7] o.s.web.servlet.PageNotFound ---> No mapping for GET /swagger-ui.html
+[INFO ] 15:22:14.974 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 15152 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 15:22:14.976 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 15:22:15.685 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 15:22:15.686 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 15:22:15.707 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+[INFO ] 15:22:15.932 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$236b202b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 15:22:16.146 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 15:22:16.156 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:22:16.159 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 15:22:16.159 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 15:22:16.163 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 15:22:16.228 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 15:22:16.228 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1199 ms
+[INFO ] 15:22:16.244 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 15:22:16.247 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 15:22:16.754 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 15:22:17.220 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Context refreshed
+[INFO ] 15:22:17.233 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Found 1 custom documentation plugin(s)
+[INFO ] 15:22:17.262 [main] s.d.s.w.s.ApiListingReferenceScanner ---> Scanning for api listing references
+[INFO ] 15:22:17.382 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:22:17.388 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 15:22:17.398 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 15:22:17.401 [main] c.spacemall.web.SpaceMallApplication ---> Started SpaceMallApplication in 2.75 seconds (JVM running for 3.338)
+[INFO ] 15:22:21.977 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 15:22:21.977 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Initializing Servlet 'dispatcherServlet'
+[INFO ] 15:22:21.984 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Completed initialization in 7 ms
+[WARN ] 15:22:21.993 [http-nio-8888-exec-1] o.s.web.servlet.PageNotFound ---> No mapping for GET /swagger-ui.html
+[WARN ] 15:22:22.996 [http-nio-8888-exec-2] o.s.web.servlet.PageNotFound ---> No mapping for GET /swagger-ui.html
+[WARN ] 15:22:37.549 [http-nio-8888-exec-4] o.s.web.servlet.PageNotFound ---> No mapping for GET /
+[WARN ] 15:22:41.240 [http-nio-8888-exec-5] o.s.web.servlet.PageNotFound ---> No mapping for GET /
+[WARN ] 15:22:44.300 [http-nio-8888-exec-6] o.s.web.servlet.PageNotFound ---> No mapping for GET /
+[WARN ] 15:22:51.732 [http-nio-8888-exec-8] o.s.web.servlet.PageNotFound ---> No mapping for GET /swagger-ui.html
+[INFO ] 15:30:01.044 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 20844 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 15:30:01.047 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 15:30:01.831 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 15:30:01.833 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 15:30:01.858 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+[INFO ] 15:30:02.090 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2bd464ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 15:30:02.319 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 15:30:02.328 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:30:02.331 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 15:30:02.331 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 15:30:02.336 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 15:30:02.402 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 15:30:02.403 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1261 ms
+[INFO ] 15:30:02.419 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 15:30:02.422 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 15:30:02.929 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 15:30:03.400 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Context refreshed
+[INFO ] 15:30:03.412 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Found 1 custom documentation plugin(s)
+[INFO ] 15:30:03.441 [main] s.d.s.w.s.ApiListingReferenceScanner ---> Scanning for api listing references
+[INFO ] 15:30:03.561 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:30:03.567 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 15:30:03.577 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 15:30:03.580 [main] c.spacemall.web.SpaceMallApplication ---> Started SpaceMallApplication in 2.885 seconds (JVM running for 3.506)
+[INFO ] 15:30:08.087 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 15:30:08.087 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Initializing Servlet 'dispatcherServlet'
+[INFO ] 15:30:08.094 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Completed initialization in 7 ms
+[WARN ] 15:30:08.972 [http-nio-8888-exec-1] i.s.m.p.AbstractSerializableParameter ---> Illegal DefaultValue 10 for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:687)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:718)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:639)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3905)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3219)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[WARN ] 15:30:08.973 [http-nio-8888-exec-1] i.s.m.p.AbstractSerializableParameter ---> Illegal DefaultValue null for parameter type integer
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:687)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:718)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:639)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3905)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3219)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:215)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:142)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[INFO ] 15:36:33.523 [main] c.spacemall.web.SpaceMallApplication ---> Starting SpaceMallApplication on LAPTOP-TAEJVG7D with PID 20376 (D:\reposity\aircas\spacemall\spacemall-web\target\classes started by gcl in D:\reposity\aircas\spacemall)
+[INFO ] 15:36:33.525 [main] c.spacemall.web.SpaceMallApplication ---> No active profile set, falling back to default profiles: default
+[INFO ] 15:36:34.248 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Multiple Spring Data modules found, entering strict repository configuration mode!
+[INFO ] 15:36:34.250 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Bootstrapping Spring Data repositories in DEFAULT mode.
+[INFO ] 15:36:34.271 [main] o.s.d.r.c.RepositoryConfigurationDelegate ---> Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+[INFO ] 15:36:34.511 [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker ---> Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ef79b091] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 15:36:34.727 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat initialized with port(s): 8888 (http)
+[INFO ] 15:36:34.735 [main] o.a.coyote.http11.Http11NioProtocol ---> Initializing ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:36:34.739 [main] o.a.catalina.core.StandardService ---> Starting service [Tomcat]
+[INFO ] 15:36:34.739 [main] o.a.catalina.core.StandardEngine ---> Starting Servlet Engine: Apache Tomcat/9.0.12
+[INFO ] 15:36:34.743 [main] o.a.c.core.AprLifecycleListener ---> The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Java\jdk1.8.0_181\bin;D:\maven\apache-maven-3.5.2\bin;D:\mysql\mysql-5.7.22-winx64\bin;D:\git\Git\cmd;C:\Users\gcl\AppData\Local\Microsoft\WindowsApps;;.]
+[INFO ] 15:36:34.808 [main] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring embedded WebApplicationContext
+[INFO ] 15:36:34.808 [main] o.s.web.context.ContextLoader ---> Root WebApplicationContext: initialization completed in 1233 ms
+[INFO ] 15:36:34.825 [main] o.s.b.w.s.ServletRegistrationBean ---> Servlet dispatcherServlet mapped to [/]
+[INFO ] 15:36:34.827 [main] o.s.b.w.s.FilterRegistrationBean ---> Mapping filter: 'characterEncodingFilter' to: [/*]
+[INFO ] 15:36:35.322 [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping ---> Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[INFO ] 15:36:35.813 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Context refreshed
+[INFO ] 15:36:35.824 [main] s.d.s.w.p.DocumentationPluginsBootstrapper ---> Found 1 custom documentation plugin(s)
+[INFO ] 15:36:35.850 [main] s.d.s.w.s.ApiListingReferenceScanner ---> Scanning for api listing references
+[INFO ] 15:36:35.961 [main] o.a.coyote.http11.Http11NioProtocol ---> Starting ProtocolHandler ["http-nio-8888"]
+[INFO ] 15:36:35.967 [main] o.a.tomcat.util.net.NioSelectorPool ---> Using a shared selector for servlet write/read
+[INFO ] 15:36:35.978 [main] o.s.b.w.e.tomcat.TomcatWebServer ---> Tomcat started on port(s): 8888 (http) with context path ''
+[INFO ] 15:36:35.980 [main] c.spacemall.web.SpaceMallApplication ---> Started SpaceMallApplication in 2.8 seconds (JVM running for 3.475)
+[INFO ] 15:36:40.101 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] ---> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 15:36:40.101 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Initializing Servlet 'dispatcherServlet'
+[INFO ] 15:36:40.107 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet ---> Completed initialization in 6 ms
